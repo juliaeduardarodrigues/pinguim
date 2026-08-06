@@ -3,21 +3,67 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flashcards de Mitos e Verdades</title>
+    <title>Flashcards: Mitos e Verdades sobre Pinguins</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <h1>Confere Aí</h1>
-            <a href="#">Início</a>
+        <nav class="navbar">
+            <h1>🐧 Confere Aí: Edição Pinguins</h1>
+            <a href="#" class="nav-link">Início</a>
         </nav>
     </header>
 
-    <main>
+    <main class="container">
+        <h2 class="title">Passe o mouse ou toque no card para descobrir a verdade!</h2>
+        
+        <div class="cards-grid">
+            <!-- Card 1 -->
+            <div class="flashcard">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://unsplash.com" alt="Pinguins no gelo">
+                        <h3>Todos os pinguins vivem no gelo e no frio extremo?</h3>
+                    </div>
+                    <div class="card-back mito">
+                        <h2>❌ MITO!</h2>
+                        <p>Muitas espécies vivem em regiões temperadas ou tropicais, como os pinguins-de-galápagos e os pinguins-de-magalhães, que visitam as praias brasileiras.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="flashcard">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://unsplash.com" alt="Pinguins juntos">
+                        <h3>Os pinguins têm parceiros para a vida toda?</h3>
+                    </div>
+                    <div class="card-back verdade">
+                        <h2>✅ VERDADE!</h2>
+                        <p>A maioria das espécies é monogâmica. Eles mantêm o mesmo parceiro por quase toda a vida e dividem as tarefas de chocar os ovos e cuidar dos filhotes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="flashcard">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://unsplash.com" alt="Pinguim nadando">
+                        <h3>Pinguins são excelentes nadadores porque são peixes?</h3>
+                    </div>
+                    <div class="card-back mito">
+                        <h2>❌ MITO!</h2>
+                        <p>Eles são aves! Embora não voem pelo ar, suas asas evoluíram para funcionar como nadadeiras perfeitas debaixo d'água.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
+        <p>&copy; 2026 Confere Aí. Feito com 💙 para amantes de pinguins.</p>
     </footer>
 </body>
 </html>
